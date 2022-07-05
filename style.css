@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heading{
+    color: white;
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+.help{   
+    padding: 150px 0; 
+    width: 55%;
+    text-align: center;
+    margin: 0 auto;
+}
+#let{
+    font-size: 50px;
+}
+#donate{
+    text-decoration: none;
+    color: white;
+    background-color: #F3AF00;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
