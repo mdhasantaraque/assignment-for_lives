@@ -3,26 +3,168 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.heading{
+.container{
     color: white;
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
-    height: 100%;
+    height: 650px;
     background-size: cover;
 }
 .help{   
-    padding: 150px 0; 
+    padding: 150px 0 100px; 
     width: 55%;
     text-align: center;
     margin: 0 auto;
 }
+
 #let{
     font-size: 50px;
 }
-#donate{
+
+.today{
+    font-size: 40px;
+}
+.charity{
+    color: grey;
+}
+.donate{
     text-decoration: none;
     color: white;
+    font-weight: 700;
     background-color: #F3AF00;
     padding: 15px 20px;
     border-radius: 5px;
+}
+.value{
+    display: flex;
+    text-align: center;
+    margin: 50px 0;
+}
+.value p{    
+    width: 120px;
+    height: 120px;
+    font-size: 25px;
+    box-sizing: border-box;
+    padding: 40px 0; 
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(237, 235, 235, 0.334);
+}
+
+#sp-tk{
+    color: #F3AF00;
+    border: 2px solid #F3AF00;
+    border-radius: 2px;
+    background-color: #f3ae001b;
+    
+}
+
+
+hr{
+    margin-bottom: 50px;
+}
+
+.container2{
+    text-align: center;
+    margin: 0 auto;
+}
+.family{
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 100px 10px 0;
+    margin: 20px 20px;
+}
+.food{
+    background-color: #a6e1dd57;
+    background-image: url(icons/food.png);
+    background-repeat: no-repeat;   
+}
+.shelter{
+    background-color: rgba(255, 192, 203, 0.303);
+    background-image: url(icons/shelter.png);
+    background-repeat: no-repeat;
+}
+.education{
+    background-color: #f5f0bbb1;
+    background-image: url(icons/Frame-1.png);
+    background-repeat: no-repeat;
+}
+.favor{
+    display: flex;
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.lives{
+    padding-left: 400px;
+    margin: 100px auto -50px; 
+}
+.lives img{
+    width: 50%;
+      opacity: 0.8;
+}
+.lives2{
+    padding-left: 100px ;
+    margin-top: -20px;
+    margin-right: -200px;
+}
+.lives2 img{
+    width: 35%;
+}
+.lives3{
+   text-align:right ;
+    margin-top: -350px;
+    margin-left: -600px;
+}
+.lives3 img{
+    width: 30%;
+    opacity: 0.8;
+}
+.coutable{
+    display: flex;
+    font-size: 100px;
+}
+.number{
+    font-size: 50px;
+    color: teal;
+}
+
+.contact{ 
+    width: 50%;
+    height: 50px;
+    border: 2px solid #f5f0bbea;
+    background-color:#f5f0bbea;
+    text-align: center;
+    margin: 100px auto;
+    padding: 100px;
+}
+
+#email{
+    border: 15px solid rgba(169, 167, 167, 0.488);
+    font-size: 15px;
+    background-color: rgba(169, 167, 167, 0.837);
+    border-radius: 3px;
+    
+}
+#subscribe{
+    color: white;
+    background-color: #F3AF00;
+    border: 16px solid #F3AF00;
+    border-radius: 3px;    
+}
+footer{
+    background-color: black;
+    text-align: center;
+    margin:0 auto;
+    padding: 15px 0;
+}
+#humble{
+    color:#F3AF00 ;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+#last-para{
+    color: white;
 }
